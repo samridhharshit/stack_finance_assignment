@@ -17,7 +17,7 @@ class Clone extends React.Component {
         let {leaders} = this.props;
         leaders.sort((a, b) => (a.points < b.points) ? 1 : -1);
         return (
-            <div className="row Clone">
+            <div className="row Clone data-row">
                 <div className="col"/>
                 <div className="col-sm-5 data-container">
                     {

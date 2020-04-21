@@ -19,7 +19,7 @@ class Original extends React.Component {
         leaders.sort((a, b) => (a.points < b.points) ? 1 : -1);
         // console.log(leaders);
         return (
-            <div className="row">
+            <div className="row data-row">
                 <div className="col"/>
                 <div className="col-sm-5 data-container">
                     {

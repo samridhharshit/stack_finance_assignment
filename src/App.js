@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="App">
         <div className="row App-row">
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 col-sm-12 original">
                 <Original />
             </div>
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 col-sm-12 clone">
                 <Clone />
             </div>
         </div>

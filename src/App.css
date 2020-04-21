@@ -12,7 +12,7 @@ html {
 .App {
   text-align: center;
   height: 100%;
-
+  display: flex;
   /* background-color: #ecf0f5; */
 }
 
@@ -24,10 +24,8 @@ html {
   margin: auto;
   display: flex;
   flex-direction: row;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
 }
 
 .data-container {
@@ -40,4 +38,19 @@ html {
   border: 1px solid;
   margin: auto auto 0.5rem;
   padding: 0.5rem 0;
+}
+
+@media (max-width: 547px) {
+  .App > .App-row {
+    margin: 0;
+  }
+
+  div.data-row {
+    margin: auto;
+    display: block;
+  }
+
+  .original, .clone {
+    padding: 1rem;
+  }
 }
